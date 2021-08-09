@@ -1,0 +1,39 @@
+{
+  "auth": {
+    "username": "deepikaguha_6ZQ3cO",
+    "access_key": "Q3ixtPetS5NpxWifzRep"
+  },
+  "browsers": [{
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": ["latest", "latest - 1"]
+    },
+    {
+      "browser": "firefox",
+      "os": "OS X Mojave",
+      "versions": ["latest", "latest - 1"]
+    },
+    {
+      "browser": "edge",
+      "os": "OS X Catalina",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "./cypress.json",
+    "specs": [ "cypress/integration/1-getting-started/todo.spec.ts"],
+    "cypress_version": "8.2",
+    "project_name": "Cypress",
+    "build_name": "Build no: 1",
+    "parallels": 5,
+    "npm_dependencies": {
+      "typescript": "^4.3.5",
+      "@types/jest": "^26.0.24"
+    }
+  },
+  "connection_settings": {
+    "local": false,
+    "local_identifier": null
+  },
+  "disable_usage_reporting": false
+}
